@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  background-color: #fffdf3;
+  direction: rtl;
+}
+
+/* الهيدر */
+.myellow {
+  background-color: #f7f7aa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+/* شريط الروابط */
+.myellow1 {
+  background-color: #e9d28e;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px;
+}
+
+/* روابط القائمة */
+.header-links a {
+  color: #000;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+
+.header-links a:hover {
+  background-color: #ffe79ddc;
+  transform: scale(1.05);
+}
+
+/* المحتوى */
+.content {
+  padding: 30px 50px;
+}
+
+.content section {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content div section {
+  background: #353535;
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 62px;
+  margin-bottom: 45px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* الفوتر */
+.footer {
+  background-color: #f7f7aa;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+/* مسافات إضافية */
+.mspace1 {
+  padding: 10px 40px;
+}
